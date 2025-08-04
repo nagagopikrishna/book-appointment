@@ -1,0 +1,125 @@
+.doctor-details-container{
+    background-color: #3D2C8D;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.details-container{
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+}
+
+.doctor-details-profile{
+    border-radius: 10px;
+    height: 240px;
+    width: 170px;
+}
+
+.doctor-details-specialization{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+.doctor-details-name{
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+
+.doctor-details-bio{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}   
+
+.sub-container-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.doctor-details-availability{
+    color: #F4B942;
+}
+
+.availability-list{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+    list-style-type: none;
+    background-color: #7F5AF0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.book-appointment{
+    flex-grow: 1;
+    background-color: #F4A825;
+    border: 0px solid;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.back-button{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.doctor-unavailable-container{
+    background-color: #7F5AF0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.unavailable-icon{
+    font-size: 54px;
+    color: #FFE066;
+}
+
+.unavailable-heading{
+    color: #EDEDED;
+    font-size: 44px;
+}
+
+.unavailable-message{
+    color: #EDEDED;
+    font-size: 24px;
+}
+
+.return-home-button{
+    background-color: '#FFFFFF';
+    color: '#7F5AF0';
+    border: 0px solid;
+    padding: 8px;
+    cursor: 'pointer';
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.book-appointment-link{
+    flex-grow: 1;
+    align-self: center;
+}
